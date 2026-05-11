@@ -21,7 +21,14 @@
     "lint": "turbo lint",
     "type-check": "turbo type-check",
     "test": "turbo test",
-    "postinstall": "turbo build --filter=shared --filter=server"
+    "postinstall": "turbo build --filter=shared --filter=server",
+    "db:generate": "cd server && drizzle-kit generate",
+    "db:migrate": "cd server && drizzle-kit migrate",
+    "db:push": "cd server && drizzle-kit push",
+    "db:pull": "cd server && drizzle-kit pull",
+    "db:studio": "cd server && drizzle-kit studio",
+    "db:check": "cd server && drizzle-kit check",
+    "db:drop": "cd server && drizzle-kit drop"
   },
   "keywords": [
     "bun",
