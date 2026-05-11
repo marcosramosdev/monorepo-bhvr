@@ -14,15 +14,11 @@
     "dev": "concurrently -k -n srv,dts -c blue,green \"bun --watch run src/index.ts\" \"tsc --watch --preserveWatchOutput\""
   },
   "dependencies": {
-    "drizzle-orm": "^0.45.2",
     "hono": "^4.10.8",
-    "pg": "^8.20.0",
     "shared": "workspace:*"
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "concurrently": "^9.1.2",
-    "drizzle-kit": "^0.31.10",
-    "tsx": "^4.21.0"
+    "concurrently": "^9.1.2"
   }
 }
