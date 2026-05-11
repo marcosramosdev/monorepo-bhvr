@@ -1,7 +1,7 @@
 {
-  "name": "monorepo",
+  "name": "monorepo-todo-app",
   "version": "0.5.1",
-  "description": "A monorepo template built with Bun, Hono, Vite, and React",
+  "description": "A todo app built with Bun, Hono, React, and Vite in a monorepo structure using TurboRepo.",
   "author": "Marcos Ramos",
   "license": "MIT",
   "homepage": "https://github.com/stevedylandev/bhvr",
